@@ -7,7 +7,7 @@ When you run the C# project, you should get two messages on Elastic Search:
 
 * A non structured one: 
 
-``
+```json
 {
   "_index": "logstash-2017.XX.XX",
   "_type": "logevent",
@@ -27,9 +27,9 @@ When you run the C# project, you should get two messages on Elastic Search:
 	XXX
   ]
 }
-``
+```
 * A structured one: 
-``
+```json
 {
   "_index": "logstash-2017.XX.XX",
   "_type": "logevent",
@@ -49,4 +49,4 @@ When you run the C# project, you should get two messages on Elastic Search:
 	XXX
   ]
 }
-`` 
+``` 
